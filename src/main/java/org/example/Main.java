@@ -27,7 +27,7 @@ public class Main {
         List<String> dogs = new ArrayList<>();
         dogs.add("しろ");
         dogs.add(null);
-        dogs.add("ポチ");
+        dogs.add("はな");
 
         System.out.println(dogs);
         System.out.println(dogs.toArray().length);
