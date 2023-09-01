@@ -25,7 +25,7 @@ public class Main {
 
 
         List<String> dogs = new ArrayList<>();
-        dogs.add("くろ");
+        dogs.add("しろ");
         dogs.add(null);
         dogs.add("ポチ");
 
@@ -40,6 +40,7 @@ public class Main {
         System.out.println(value.or(() -> Optional.of("空です")).get());
 
         System.out.println(name5.length());
+
     }
 
 }
